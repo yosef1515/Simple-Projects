@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(221, 180, 77);
+    height: 0;
+    width: 0;
+}
+
+.central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.base {
+    background-color: gray;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.visor {
+    background-color: white;
+    width: 275px;
+    height: 100px;
+    transform: translate(5%, 15%);
+    border-radius: 10px;
+}
